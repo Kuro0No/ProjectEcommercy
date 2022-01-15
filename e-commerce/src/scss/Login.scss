@@ -1,0 +1,39 @@
+.loginForm {
+    width: 500px;
+    margin: auto;
+}
+.fieldPassword {
+    position: relative;
+    i{
+        position:absolute;
+        right: 0;
+        top: -5px;
+    }
+    div{
+
+        p {
+            span {
+                cursor: pointer;    
+                &:hover {
+                    color: blueviolet;
+                }
+            }
+        }
+        .textForgot {
+            cursor: pointer;    
+                &:hover {
+                    color: blueviolet;
+                }
+        }
+    }
+}
+.backToLogin {
+    cursor: pointer;
+    font-size: 18px;
+    &:hover{
+        color: blueviolet;
+    } 
+    label{
+        cursor: pointer;
+    }
+}

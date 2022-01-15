@@ -1,0 +1,62 @@
+.contactbanner{
+    margin-top: -30px;
+     div {
+        width: 100%;
+        img {
+            width: 100%;
+        }
+    }
+}
+.tabContact {
+    
+    box-shadow: 5px 5px 5px 5px #b7b9b7;
+    border: none;
+    cursor: pointer;
+    &:hover {
+        transform: translateY(-10px);
+        transition: 0.3s ease;
+    }
+}
+.cursorPointer {
+    cursor: pointer;
+}
+
+.sendEmail{
+    height: 500px;
+    width: 600px;
+    margin: auto;
+    .sendEmailInput-group {
+        display: block;
+        margin-bottom: 20px;
+        .pull-left, .pull-right {
+            width: 48%;
+        }
+        label{
+            display: block;
+            font-size: 18px;
+        }
+        input{
+            width: 100%;
+            height: 50px;
+            border-radius: 10px;
+            border: solid 1px;
+            padding: 0 10px;
+        }
+        textarea {
+            border-radius: 10px;
+            border: solid 1px;
+            width: 100%;
+            height: 150px;
+        }
+    }
+}
+
+.gearRotate {
+    animation: gearRotate 2s infinite;
+   
+}
+
+@keyframes gearRotate {
+    from {transform: rotate(0deg)};
+    to {transform: rotate(180deg)}
+}
